@@ -1,0 +1,231 @@
+{
+  "recipes": [
+    
+    {
+      "interactionType": 1,
+      "worktopType": 0,
+      "craftingTime": 1.0,
+      "inputs": [ 0 ],
+      "outputs": [ 1, 1 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 0,
+      "craftingTime": 1.5,
+      "inputs": [ 1 ],
+      "outputs": [ 2 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 0,
+      "craftingTime": 2.0,
+      "inputs": [ 4 ],
+      "outputs": [ 5 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 0,
+      "worktopType": 1,
+      "craftingTime": 3.0,
+      "inputs": [ 8, 9 ],
+      "outputs": [ 10, 10 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 0,
+      "worktopType": 1,
+      "craftingTime": 4.0,
+      "inputs": [ 12 ],
+      "outputs": [ 13 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 0,
+      "worktopType": 1,
+      "craftingTime": 3.0,
+      "inputs": [ 15 ],
+      "outputs": [ 16 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 3,
+      "craftingTime": 1.0,
+      "inputs": [ 1 ],
+      "outputs": [ 3 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 3,
+      "craftingTime": 1.5,
+      "inputs": [ 4 ],
+      "outputs": [ 6 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 3,
+      "craftingTime": 2.0,
+      "inputs": [ 10 ],
+      "outputs": [ 11 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 3,
+      "craftingTime": 3.0,
+      "inputs": [ 13 ],
+      "outputs": [ 14 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 3,
+      "craftingTime": 2.5,
+      "inputs": [ 16 ],
+      "outputs": [ 17 ],
+      "itemAvaliable": [ false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 1.0,
+      "inputs": [ 2, 3 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 1.5,
+      "inputs": [ 5, 3 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 1.5,
+      "inputs": [ 2, 6 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 2.0,
+      "inputs": [ 5, 6 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 2.5,
+      "inputs": [ 2, 11 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 3.0,
+      "inputs": [ 5, 11 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 2.5,
+      "inputs": [ 2, 14 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 3.0,
+      "inputs": [ 5, 14 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 2.5,
+      "inputs": [ 2, 17 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    },
+    {
+      "interactionType": 1,
+      "worktopType": 2,
+      "craftingTime": 3.0,
+      "inputs": [ 5, 17 ],
+      "outputs": [ 7 ],
+      "itemAvaliable": [ false, false ]
+    }
+  ],
+  "worktopItems": [
+    {
+      "type": 0,
+      "itemIDs": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+    },
+    {
+      "type": 1,
+      "itemIDs": [ 8, 9, 12, 15 ]
+    },
+    {
+      "type": 2,
+      "itemIDs": [ 2, 3, 5, 6, 11, 14, 17 ]
+    },
+    {
+      "type": 3,
+      "itemIDs": [ 1, 4, 10, 13, 16 ]
+    },
+    {
+      "type": 4,
+      "itemIDs": [ 0 ]
+    },
+    {
+      "type": 5,
+      "itemIDs": [ 4 ]
+    },
+    {
+      "type": 6,
+      "itemIDs": [ 8 ]
+    },
+    {
+      "type": 7,
+      "itemIDs": [ 9 ]
+    },
+    {
+      "type": 8,
+      "itemIDs": [ 12 ]
+    },
+    {
+      "type": 9,
+      "itemIDs": [ 15 ]
+    },
+    {
+      "type": 11,
+      "itemIDs": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+    },
+    {
+        "type": 12,
+        "itemIDs": []
+    },
+    {
+      "type": 13,
+      "itemIDs": [ 7 ]
+    },
+    {
+      "type": 14,
+      "itemIDs": [ 7 ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1515887277166553909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515887277166553867}
+  - component: {fileID: 1515887277166553908}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1515887277166553867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515887277166553909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1515887277166553908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515887277166553909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a80b6fc01ad7b41af8b6ee487ce501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 5dc44479bc065b848abe9a0a4bce981e, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Hammer
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c78d2c2bee94c5344b386ea28a4271ee, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    name: Fail SFX
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0c53dacfda27ccf42ac9fcbf73d2ddbb, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Running On Stone
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3b1d227765a94af49859b3ba3004c694, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Running On Wood
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6170ade9f9c30af4e87f16032acb1a15, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Wood Chop
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0fa485aaeea86a148913f2a65b71935b, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Ticking
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 70c8b0aec9539f04ba0cf0b64f2e15aa, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Forge SFX
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6d68ab03ecc83ac4c8e63b5984e8f87c, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Intro Theme Music
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0f06e29a10a919544a7c97571217a564, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Victory
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 5e3940e91453c974bb9d4690301a354e, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Loose
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 37371bbba00beb041a41d4b2b37884c2, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Hi Tempo Music 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 8018826bcc8272847a81f70a1db816ba, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Hi Tempo Music 2
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bb8ccbb4b02fc9f49a6d0cb62ba7261c, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Lo Tempo Music 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: fa88ffc024a33534ea83ad76558832a7, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Lo Tempo Music 2
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: af4db8d720691e848af07bbaa7d54569, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Musical Sprint 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: db364d4d0aada78439de55508f38d980, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    name: Musical Sprint 2
+    source: {fileID: 0}

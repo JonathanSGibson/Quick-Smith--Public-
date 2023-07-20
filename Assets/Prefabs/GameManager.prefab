@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8731229046589707112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8731229046589707113}
+  - component: {fileID: 8731229046589707114}
+  - component: {fileID: 1837069354}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8731229046589707113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731229046589707112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8731229046589707114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731229046589707112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f112de5f59bf9a4092ec2fe849cf6a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDay: 0
+  days: []
+  coins: 0
+  customerController: {fileID: 0}
+  saveManager: {fileID: 0}
+  objectMultiplierStore: {fileID: 0}
+  customerIncreaseNumber: 2
+  timeBetweenCustomersDecreaseNumber: 0.1
+  percentageChange: 0.25
+  dayAdditions: []
+  customerPatience: 0
+  customerOrderPatience: 0
+  minDay1Customers: 2
+  maxDay1Customers: 5
+  minDay1TimeBetweenCustomers: 1
+  maxDay1TimeBetweenCustomer: 2
+  day1BulkThresholdsAndValues: []
+  numberOfDays: 10
+  gameFailed: 0
+  Sun: {fileID: 0}
+  SunColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  BrightnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NightLightTurnOnTime: 0.8
+  NightLightFullBrightnessTime: 0.85
+  NightLights: []
+  nightBrightnessMultiplier: 4
+  sunPosition: 0
+  sunColor: 0
+  sunBrightness: 0
+  DayProgressBar: {fileID: 0}
+  DayProgressBarColor: {fileID: 0}
+  playerDayStart: []
+  UiCheckPrefab: {fileID: 0}
+  UiCheckPosition: {fileID: 0}
+--- !u!114 &1837069354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731229046589707112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba89a0298adaef419c15462845a5244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multipliers:
+    counterMultipler: 0
+    crucibleMultipler: 0
+    anvilMultipler: 0
+    combinerMultipler: 0
+    oreMinerMultipler: 0
+    stoneBarrelStorage: 0
+    copperBarrelStorage: 0
+    tinBarrelStorage: 0
+    ironBarrelStorage: 0
+    goldBarrelStorage: 0
